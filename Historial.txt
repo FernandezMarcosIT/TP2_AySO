@@ -1,0 +1,110 @@
+sudo apt 
+man
+man append
+clean
+clear
+file touch
+fdisk /dev/sdb
+lsblk
+fdisk /dev/sdc
+fdisk /dev/sdd
+lsblk
+clear
+lsblk
+pvcreate /dev/sdb1
+pvcreate /dev/sdc1
+pvcreate /dev/sdd1
+pvs
+vgcreate datos /dev/scb1 /dev/sdc1 /dev/sdd1
+vgcreate datos /dev/sdb1 /dev/sdc1 /dev/sdd1
+vgs
+lvcreate -L 1G -n www datos
+lvcreate -L 4G -n salvas datos
+vgs
+lvextend -L +1G /dev/datos/www
+lvs
+lsblk
+mkdir /mnt/www
+mount /dev/datos/www 
+lsblk
+mkdir /mnt/1disco
+mount /dev/datos/www
+mount /dev/datos/www mount/1disco
+mount /dev/datos/www mount/2disco
+mount /dev/datos/www mnt/1disco
+mount /dev/datos/www mnt/disco1
+history -a
+cp~/.bash_history ./Historial
+ssh-keygen
+cat $HOME/.ssh/*.pub
+mkdir repogit
+“$HOME/repogit/”
+cd
+repogit
+cd
+git clone git@github.com:FernandezMarcosIT/TP2_AySO.git
+cd
+git clone git@github.com:FernandezMarcosIT/TP2_AySO.git 
+cd repogit
+clear
+ssh-keygen
+cat $HOME/.ssh/*.pub
+mkdir repogit
+cd repogit
+git clone git@github.com:FernandezMarcosIT/TP2_AySO.git
+cd TP2_AySO/
+pwd
+echo “Yo=$(whoami)” > Historial.txt
+history -a
+cp ~/.bash_history ./Historial.txt
+git add Historial.txt
+git commit -m "ADD: Historial.txt
+git push
+
+history
+cd repogit
+pwd
+TP_AySO/
+git clone git@github.com:FernandezMarcosIT/TP2_AySO.git
+TP2_AySO/
+cd TP2_AySO/
+echo “Usuario=$(whoami)” > Historial.txt
+git add.
+git add .
+git status
+histoy -a
+history -a
+cp ~/.bash_history ./Historial.txt
+git add Historial.txt
+git status
+git push
+git commit -m "ADD: Historial.txt
+history&a
+cat
+'''sda
+cd
+
+cd repogit
+TP2_AySO/
+.bash_history Marcos
+history -a
+$HOME/.bash_history 
+$HOME/.bash_history Historial.txt
+history -a
+cp ~/.bash_history ./Historial_comandos.txt
+git add Historial_comandos.txt
+git commit -m
+git commit -m "ADD: Historial de comandos de Marcos"
+clear
+TP2_AySO/
+git config --global user.email "FernandezMarcosIT@gmail.com"
+git config --global user.name yo
+git config --global user.name FernandezMarcosIT
+$HOME/.bash_history 
+history -a
+cp ~/.bash_history ./Historial.txt
+git add Historial.txt
+git push
+TP2_AySO/
+cd TP2_AySO/
+history -a
